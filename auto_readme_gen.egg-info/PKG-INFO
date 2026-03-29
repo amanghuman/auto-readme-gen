@@ -1,0 +1,7 @@
+Metadata-Version: 2.4
+Name: auto-readme-gen
+Version: 1.0.0
+Summary: A CLI tool to automatically generate README.md files from Python docstrings.
+Author-email: Your Name <your.email@example.com>
+Requires-Python: >=3.7
+Requires-Dist: rich>=10.0.0

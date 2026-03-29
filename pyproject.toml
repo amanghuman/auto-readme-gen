@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "auto-readme-gen"
+version = "1.0.0"
+description = "A CLI tool to automatically generate README.md files from Python docstrings."
+authors = [
+    { name="Your Name", email="your.email@example.com" }
+]
+# This replaces requirements.txt for the actual installation!
+dependencies = [
+    "rich>=10.0.0"
+]
+requires-python = ">=3.7"
+
+[project.scripts]
+# THIS IS THE MAGIC LINE: 
+# It creates a terminal command 'autoreadme' that runs the 'main' function inside 'autoreadme/main.py'
+autoreadme = "autoreadme.main:main"

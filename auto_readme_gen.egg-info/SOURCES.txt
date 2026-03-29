@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+auto_readme_gen.egg-info/PKG-INFO
+auto_readme_gen.egg-info/SOURCES.txt
+auto_readme_gen.egg-info/dependency_links.txt
+auto_readme_gen.egg-info/entry_points.txt
+auto_readme_gen.egg-info/requires.txt
+auto_readme_gen.egg-info/top_level.txt
+autoreadme/__init__.py
+autoreadme/main.py

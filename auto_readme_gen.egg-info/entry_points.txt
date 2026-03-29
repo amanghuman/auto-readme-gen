@@ -1,0 +1,2 @@
+[console_scripts]
+autoreadme = autoreadme.main:main
