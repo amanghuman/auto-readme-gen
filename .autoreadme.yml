@@ -1,0 +1,15 @@
+# .autoreadme.yml
+ignore_dirs:
+  - .git
+  - venv
+  - tests
+  - migrations
+  - scripts
+
+ignore_files:
+  - setup.py
+  - __init__.py
+  - manage.py
+
+include_private: false  # Set to true if you want to document def _internal_method()
+max_complexity: 12  # Any function more complex than this gets flagged
